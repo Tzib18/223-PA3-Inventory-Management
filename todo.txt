@@ -1,0 +1,14 @@
+ok so the csv file has 28 different proprties to a product: to lazy to write it all out 
+Uniq Id,Product Name,Brand Name,Asin,Category,Upc Ean Code,List Price,Selling Price,Quantity,Model Number,
+About Product,Product Specification,Technical Details,Shipping Weight,Product Dimensions,Image,Variants,
+Sku,Product Url,Stock,Product Details,Dimensions,Color,Ingredients,Direction To Use,Is Amazon Seller,Size Quantity Variant,
+Product Description
+
+
+
+make a struct so i can throw mutliple stuff for a string when trying to do option 2 when having multiple things pop Up
+make a library function and a class header file. 
+
+the options for this is an item look up via unique id number/ code 
+the second option is looking up items through a catagory and printing all items that are found within said catagory 
+
