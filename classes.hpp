@@ -61,3 +61,25 @@ class Inventory{
             this->quantity = quantity;
         }
 };
+
+template<typename k, typename V>  // k stands for key and v is for value 
+class HashTable{
+    private:
+        unordered_map<k, V> table;
+
+    public:
+        void insert(k key, V value){
+            table[key] = value;
+        }
+
+        bool find(k key){
+            return table.find(key) != table.end();
+        }
+
+        V get(k key){
+            if(find(key)){
+                return table[key];
+            }
+            throw runtime_error("Key not found");
+        }
+};

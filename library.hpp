@@ -11,6 +11,7 @@
 using namespace std;
 
 void parseCSV(const string& filename);
+vector<string> splitCategory(const string& CategoryLine);
 void printHelp();
 bool validCommand(string line);
 void evalCommand(string line);
